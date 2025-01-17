@@ -1,0 +1,91 @@
+html { height: 100% }
+
+body {
+    height: 100%;
+    background-image: linear-gradient(254deg, #71A1EB 5%, #6B7CD1 63%, #7766BA 92%);
+    font-family: "Source Sans Pro", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+#pfp {
+    border-style: none none dashed dashed;
+    border-radius: 50%;
+    border-color: #FFFFFFa1;
+}
+
+header h1 {
+    font-size: 27pt;
+}
+
+header h2 {
+    font-weight: 200;
+}
+
+header h4 {
+    color: #ffffffbd;
+    font-size: 1em;
+    line-height: 1.625;
+    font-weight: 400;
+}
+
+.container {
+    color: #5D60A3;
+    font-size: 1.15em;
+    font-size: 300;
+    background-color: #FFFFFFa1;
+    border-radius: 20px;
+    width: 70%;
+    margin: 50px auto 50px auto;
+    padding: 5px 30px;
+    box-shadow: -5px 5px 1px 1px;
+}
+.container h3 {
+    text-align: center;
+}
+
+.container ul {
+    list-style-type: "★  ";
+}
+
+.buttons {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons li {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.15em;
+    color: #5D60A3;
+    background-color: #ffffffa1;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: right;
+    display: inline-block;
+    margin: 5px 10px 50px 10px;
+    box-shadow: -5px 5px 1px 1px;
+}
+
+.buttons li span {
+    font-size: 98%;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+hr {
+    color: #FFFFFF6B;
+    width: 100px;
+    border-top: 0px solid;
+}
+
+a, a:visited{
+    color: #5D60A3;
+    text-decoration: none;
+}
