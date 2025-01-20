@@ -53,6 +53,11 @@ header h4 {
     list-style-type: "★  ";
 }
 
+.container img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
 .buttons {
     text-align: center;
     margin: 0;
