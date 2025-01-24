@@ -98,6 +98,7 @@ header h4 {
 .container img {
     border-radius: 10px;
     margin: 10px;
+    width: 200px;
 }
 
 .container .centered {
@@ -126,7 +127,7 @@ header h4 {
     box-shadow: -5px 5px 1px 1px;
 }
 
-.buttons li span {
+.buttons li .icon {
     font-size: 98%;
     position: relative;
     top: 2px;
@@ -147,10 +148,4 @@ a, a:visited{
 .gallery {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(5, 1fr);
-}
-
-.container img {
-    border-radius: 10px;
-    margin: 10px;
-    width: 200px;
 }
