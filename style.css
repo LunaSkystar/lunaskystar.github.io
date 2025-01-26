@@ -157,7 +157,7 @@ header h4 {
 }
 
 .buttons li .icon {
-    font-size: 98%;
+    height: 1em;
     position: relative;
     top: 2px;
     margin-right: 5px;
