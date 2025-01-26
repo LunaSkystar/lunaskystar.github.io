@@ -40,14 +40,31 @@
     mask-size: 100% 100%;
 }
 
-html { height: 100% }
+.material-symbols--home-rounded {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M4 19v-9q0-.475.213-.9t.587-.7l6-4.5q.525-.4 1.2-.4t1.2.4l6 4.5q.375.275.588.7T20 10v9q0 .825-.588 1.413T18 21h-3q-.425 0-.712-.288T14 20v-5q0-.425-.288-.712T13 14h-2q-.425 0-.712.288T10 15v5q0 .425-.288.713T9 21H6q-.825 0-1.412-.587T4 19'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+html { 
+    height: 100%;
+    background-image: linear-gradient(254deg, #71A1EB 5%, #6B7CD1 63%, #7766BA 92%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scrollbar-width: thin;
+}
 
 body {
     height: 100%;
-    background-image: linear-gradient(254deg, #71A1EB 5%, #6B7CD1 63%, #7766BA 92%);
     font-family: "Source Sans Pro", sans-serif;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 header {
@@ -108,6 +125,18 @@ header h4 {
     width: 30%;
 }
 
+.centered {
+    text-align: center;
+}
+
+.container-item {
+    margin-bottom: 10px;
+}
+
+.container hr {
+    color: #5D60A36b;
+}
+
 .buttons {
     text-align: center;
     margin: 0;
@@ -148,4 +177,11 @@ a, a:visited{
 .gallery {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 200;
 }
