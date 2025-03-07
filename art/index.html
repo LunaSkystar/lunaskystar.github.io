@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../icons.css">
     <link rel="icon" href="../img/favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
@@ -41,10 +42,19 @@
             <h2 class="centered">Art</h2>
             <hr>
             <div class="gallery">
-                <img src="../img/elsa.jpg">
-                <img src="../img/luna.jpg">
-                <img src="../img/haruka.jpg">
-                <img src="../img/light.jpg">
+                <img src="../img/lightstudy.jpg" onclick="openModal('../img/lightstudy.jpg')">
+                <img src="../img/elsa.jpg" onclick="openModal('../img/elsa.jpg')">
+                <img src="../img/luna.jpg" onclick="openModal('../img/luna.jpg')">
+                <img src="../img/haruka.jpg" onclick="openModal('../img/haruka.jpg')">
+                <img src="../img/light.jpg" onclick="openModal('../img/light.jpg')">
+                <img src="../img/cloudgarden.jpg" onclick="openModal('../img/cloudgarden.jpg')">
+                <img src="../img/selfportrait.jpg" onclick="openModal('../img/selfportrait.jpg')">
+                <img src="../img/emily.jpg" onclick="openModal('../img/emily.jpg')"> 
+                <img src="../img/mayday.jpg" onclick="openModal('../img/mayday.jpg')">
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
             </div>
         </div>
     </main>
