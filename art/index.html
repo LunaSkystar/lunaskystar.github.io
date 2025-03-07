@@ -12,55 +12,57 @@
     <title>Luna Skystar's art</title>
 </head>
 <body>
-    <header>
-        <img id="pfp" src="../img/lunapfp.png" alt="Profile picture" width="250" height="250">
-        <h1>Luna Skystar</h1>
-        <hr>
-    </header>
-    <nav>
-        <ul class=buttons>
-            <li>
-                <span class="icon material-symbols--home-rounded"></span>
-                <a href="https://lunaskystar.github.io">Home</a>
-            </li>
-            <li>
-                <span class="icon material-symbols--brush"></span>
-                <a href="#">Art</a>
-            </li>
-            <li>
-                <span class="icon material-symbols--music-note-rounded"></span>
-                <a href="../music/">Music</a>
-            </li>
-            <li>
-                <span class="icon simple-icons--linktree"></span>
-                <a href="https://linktr.ee/lunaskystar">Linktree</a>
-            </li>
-        </ul>
-    </nav>
-    <main>
-        <div class="container">
-            <h2 class="centered">Art</h2>
+    <div id="wrapper">
+        <header>
+            <img id="pfp" src="../img/lunapfp.png" alt="Profile picture" width="250" height="250">
+            <h1>Luna Skystar</h1>
             <hr>
-            <div class="gallery">
-                <img src="../img/lightstudy.jpg" onclick="openModal('../img/lightstudy.jpg')">
-                <img src="../img/elsa.jpg" onclick="openModal('../img/elsa.jpg')">
-                <img src="../img/luna.jpg" onclick="openModal('../img/luna.jpg')">
-                <img src="../img/haruka.jpg" onclick="openModal('../img/haruka.jpg')">
-                <img src="../img/light.jpg" onclick="openModal('../img/light.jpg')">
-                <img src="../img/cloudgarden.jpg" onclick="openModal('../img/cloudgarden.jpg')">
-                <img src="../img/selfportrait.jpg" onclick="openModal('../img/selfportrait.jpg')">
-                <img src="../img/emily.jpg" onclick="openModal('../img/emily.jpg')"> 
-                <img src="../img/mayday.jpg" onclick="openModal('../img/mayday.jpg')">
+        </header>
+        <nav>
+            <ul class=buttons>
+                <li>
+                    <span class="icon material-symbols--home-rounded"></span>
+                    <a href="https://lunaskystar.github.io">Home</a>
+                </li>
+                <li>
+                    <span class="icon material-symbols--brush"></span>
+                    <a href="#">Art</a>
+                </li>
+                <li>
+                    <span class="icon material-symbols--music-note-rounded"></span>
+                    <a href="../music/">Music</a>
+                </li>
+                <li>
+                    <span class="icon simple-icons--linktree"></span>
+                    <a href="https://linktr.ee/lunaskystar">Linktree</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="container">
+                <h2 class="centered">Art</h2>
+                <hr>
+                <div class="gallery">
+                    <img src="../img/lightstudy.jpg" onclick="openModal('../img/lightstudy.jpg')">
+                    <img src="../img/elsa.jpg" onclick="openModal('../img/elsa.jpg')">
+                    <img src="../img/luna.jpg" onclick="openModal('../img/luna.jpg')">
+                    <img src="../img/haruka.jpg" onclick="openModal('../img/haruka.jpg')">
+                    <img src="../img/light.jpg" onclick="openModal('../img/light.jpg')">
+                    <img src="../img/cloudgarden.jpg" onclick="openModal('../img/cloudgarden.jpg')">
+                    <img src="../img/selfportrait.jpg" onclick="openModal('../img/selfportrait.jpg')">
+                    <img src="../img/emily.jpg" onclick="openModal('../img/emily.jpg')"> 
+                    <img src="../img/mayday.jpg" onclick="openModal('../img/mayday.jpg')">
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <img class="modal-content" id="modalImage">
+                </div>
             </div>
-            <div id="myModal" class="modal">
-                <span class="close" onclick="closeModal()">&times;</span>
-                <img class="modal-content" id="modalImage">
-            </div>
-        </div>
-    </main>
-    <footer>
-        <hr>
-        <p>Made by me using HTML and CSS</p>
-    </footer>
+        </main>
+        <footer>
+            <hr>
+            <p>Made by me using HTML and CSS</p>
+        </footer>
+    </div>
 </body>
 </html>
