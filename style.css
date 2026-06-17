@@ -1,5 +1,6 @@
 * {
     --text-color: #ffffff;
+    --bg-color: #333966;
     font-family: "Titillium Web";
 }
 
@@ -7,7 +8,7 @@ html {
     height: 100vh;
     padding: 0;
     /*background-color: #51468f;*/
-    background-color: #333966;
+    background-color: var(--bg-color);
 }
 
 body {
@@ -67,8 +68,8 @@ aside {
 
 main {
     float: left;
-    width: 45vw;
     margin-bottom: 2em;
+    min-width: 45vw;
 }
 
 #welcome {
@@ -76,7 +77,7 @@ main {
 }
 
 #welcome img {
-    margin-right: 1em;
+    margin-right: 3em;
     border-radius: 2em;
     border: 0em solid #000000;
     width: 15vw;
@@ -96,13 +97,37 @@ footer {
     font-size: 11pt;
 }
 
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.buttons li {
+    display: inline-block;
+}
+
+.buttons a {
+    text-decoration: none;
+    background-color: var(--bg-color);
+    padding: 5px;
+    border-radius: 15px;
+    border: 3px solid white;
+    text-align: right;
+    margin: 0.5rem;
+}
+
+.buttons p {
+    display: inline;
+}
+
 /* Gallery */
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: center;
+    width: 100%;
 }
 
 .gallery img {
@@ -115,7 +140,7 @@ footer {
     margin: 5px;
 }
 
-.gallery img:hover {
+img.clickable-img:hover {
     opacity: 80%;
     cursor: pointer;
 }
